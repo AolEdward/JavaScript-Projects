@@ -1,1 +1,1 @@
-window.alert("Hello, This is an external Javascript");
+document.write("Hello, This is an external Javascript");
