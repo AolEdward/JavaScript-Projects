@@ -6,4 +6,6 @@ document.write(A);
 
 var B = "Click Button to Close Message.";
 
-window.alert(B)
+window.alert
+
+document.write(A, " Concatenating Var A ");
