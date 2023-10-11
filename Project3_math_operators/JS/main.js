@@ -18,3 +18,8 @@ function division(){
     var simple_math2 = 48 / 6;
     document.getElementById("Math4").innerHTML = "48 ÷ 6 = " + simple_math2;
 }
+
+function modulus_operator(){
+    var simple_math3 = 25 % 6;
+    document.getElementById("Math5").innerHTML = "When you divide 25 by 6 you have a remainder of: " + simple_math3;
+}
