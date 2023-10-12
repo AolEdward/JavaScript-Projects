@@ -1,3 +1,5 @@
+window.alert("Here is a random number " +  Math.random() * 100);
+
 function addition_function() {
     var addtion = 2 + 2;
     document.getElementById("Math").innerHTML = "2 + 2 = " + addtion
