@@ -40,6 +40,25 @@ document.write("<br>");
 document.write("is 10 greater than 2 = ", 10 > 2); //Boolean Logic
 document.write("<br>");
 document.write(10 < 2); //Boolean Logic
+document.write("<br>");
+document.write(10 == 10);
+document.write("<br>");
+document.write(10 == 11);
+document.write("<br>");
+
+X =10;
+Y = 10;
+A = 82;
+B = "82";
+AB = "Edward";
+AC = "Edward";
+
+document.write("Using Triple Equal Sign === ", X === Y); //Triple Equal Sign
+document.write("<br>");
+document.write("Using Triple Equal Sign ===", A === B); // Triple Equal Sign
+document.write("<br>");
+document.write("Using Triple Equal Sign === ", AB === AC); // Triple Equal Sign
+
 
 
 
