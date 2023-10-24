@@ -58,6 +58,15 @@ document.write("<br>");
 document.write("Using Triple Equal Sign ===", A === B); // Triple Equal Sign
 document.write("<br>");
 document.write("Using Triple Equal Sign === ", AB === AC); // Triple Equal Sign
+document.write("<br>");
+
+document.write(5 > 2 && 10 > 4); //Operators
+document.write("<br>");
+document.write(5 > 10 && 10 > 4);
+document.write("<br>");
+document.write(5 > 10 || 10 > 4);
+document.write("<br>");
+document.write(5 > 10 || 10 > 20);
 
 
 
@@ -66,4 +75,20 @@ function NanFunction() {
     document.getElementById("Test").innerHTML = 0/0
 }
 
+function not_function(){
+    document.getElementById("Not").innerHTML = !(20 > 10);
+}
 
+function Ride_Function() {
+    var Height, Can_ride;
+    Height = document.getElementById("Height").value;
+    Can_ride = (Height < 52) ? "You are too short" : "You are tall enough";
+    document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
+}
+
+function Vote_Function() {
+    var age, Can_vote;
+    age = document.getElementById("age").value;
+    vote = (age < 18) ? "You are under age" : "You are eligible ";
+    document.getElementById("vote").innerHTML = vote + " to vote.";
+}
